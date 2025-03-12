@@ -1,0 +1,47 @@
+functional components 
+named function 
+arrow function 
+anonymous function 
+
+2-types 
+
+1.functional 
+2. class based  
+
+
+
+
+
+class --- class is  a blue print to create objects
+
+
+
+agenda:
+
+to create  a class component 
+
+class --- it defines the type of component 
+comp name-  
+extends -- to access the methods and functions in the Comoponent
+React.Component 
+
+
+
+render(){
+    return(<>jsx</>)
+}
+
+
+constructor 
+super
+
+
+state -- state is an object containg the current values of variables
+
+
+constructor (){
+    super()
+    this.state={
+        key:value
+    }
+}
