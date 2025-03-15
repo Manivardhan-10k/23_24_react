@@ -1,0 +1,33 @@
+forms 
+
+controlled :(component)
+the input data is handled by the react /state
+
+the key in the state should be same as the name attribute of input
+this.setState({[event.target.name]:event.target.value})
+
+
+uncontrolled:
+the data is controlled by dom
+we have to define the ref using createRef()
+in the input tag create a attribute ref={this.nameRef}
+
+
+
+task:
+
+form --login form 
+
+pass it as a prop 
+
+validate the props 
+
+conditional rendering 
+
+if true:
+
+show  products in cards
+
+else:
+  render(<Invalid />)
+
