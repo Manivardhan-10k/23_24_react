@@ -1,0 +1,21 @@
+life cycle of components:
+
+3-phases:
+1.mounting phase
+
+ a.constructor 
+   this is the first method called in the component
+ b.getDerivedStateFromProps 
+   this will update the state depending on the props
+ c.render:
+   it will render the component in the browser
+ d.componentDidMount
+   this method is used to perform side effects
+   this will render the component only once after the render
+   eg:api calls, event listeners
+
+2.updating phase 
+3.unmounting phase
+
+
+
