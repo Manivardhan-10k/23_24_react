@@ -1,0 +1,30 @@
+class based components 
+
+
+1.mounting 
+constructor
+
+get derived state from props 
+
+render
+
+component did mount
+##it handles the side effects  (api calls,event listeners,timeout)
+## it executes once the component is initially rendered
+
+2.updating
+a.getderived state from props
+b.component should update 
+c.render 
+
+d.getsnapshotbeforeupdate
+e.component did update
+    they are interdependant 
+
+
+Research topic:
+
+3.unmounting
+componentwillunmount 
++
+cleanup function
