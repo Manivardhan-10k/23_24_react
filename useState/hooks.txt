@@ -1,0 +1,48 @@
+consructor 
+super 
+state 
+render
+life cycle methods
+
+
+Hooks:
+they are the special methods that hook into functional components
+they allow the functional components to use state and to implement life cycle methods 
+
+types of hooks 
+predefined hooks :
+
+usestate
+useeffect
+useref 
+usememo
+usecallback
+
+custom hooks/user defined hooks
+ 
+
+
+ uses of hooks:
+  the  code is more maintainable 
+  easy to debug 
+  it is fast compared to class based components
+
+
+
+usestate:
+
+to implement the state in a function based component 
+
+import {usestate} from "react"
+
+usestate returns a  array of  values 1.initial value 2.updater function 
+const [val,setVal]=usestate() 
+the initial value is assigned in the parameter of usestate hook
+the value is updated using the setVal(updater function)
+
+
+
+
+Task:
+1. implement a counter with proper styling 
+2. take 3 inputs(name,email,mobile) and udpate the state
