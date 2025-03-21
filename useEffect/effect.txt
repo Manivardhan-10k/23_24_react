@@ -1,0 +1,33 @@
+Hooks:
+special methods that are used to implement state and replciate lifecyclemethods in functional components 
+
+
+useState:
+it is used to initialise state in functional component  
+
+  const  [initialvalue,updaterfunction] = useState(initial value)
+
+
+{
+    key:value
+}
+
+this.setState()b 
+
+
+
+useeffect:
+componentDidMount()  
+
+
+Dependency array []
+componentDidUpdate()
+
+
+by defining a clean-up function
+componentwillunmount
+
+
+
+memory leak
+
