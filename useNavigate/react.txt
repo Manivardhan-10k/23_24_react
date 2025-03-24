@@ -1,0 +1,65 @@
+useEffect:
+it is used to perform side effects 
+fetch,timers 
+
+
+useEffect
+componentdidmount 
+
+dependency array[]
+componentDidUpdate 
+
+
+cleanup function
+componentwillunmount 
+
+
+
+memory leaks:
+usage of storage and data even after the component is unmounted 
+
+
+
+
+
+Routing:
+to move to another webpage 
+
+to show the different pages  / to load components 
+
+
+
+
+
+
+react-router-dom 
+it is a third party library to implement routing in react
+
+
+Browser router 
+it is a component that wraps all the routes in react
+
+Routes 
+it is a container for all the routes
+
+Route 
+it is the end point for redirecting to a particular component/page
+
+it has two props:
+path --"endpoint"
+element={<component/>} 
+
+
+
+Link 
+it provides the reference to the endpoint
+
+
+
+dynamic routing
+
+useNavigate()
+const navigate=useNavigate()
+to
+options
+navigate("endpoint")
