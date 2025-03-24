@@ -1,0 +1,36 @@
+Navigation
+react-router-dom 
+browser router 
+routes 
+route path="" element={<Component/>}
+
+
+
+Link to="/"
+
+useNavigate 
+const navigate=useNavigate(to,options)
+useeffect
+
+
+
+prop drilling
+nested Component /deeply rooted
+passing of props to the deeply nested components
+
+
+
+
+
+great-grand 
+grand
+parent
+child
+
+
+useContext
+
+
+
+
+
