@@ -1,0 +1,36 @@
+prop drilling 
+
+passing of props to the deeply nested components 
+
+GGP
+GP
+P 
+Child
+
+
+Context-API
+It creates  a global context throughout the react app
+
+useContext 
+
+create the context +
+export const propContext=createContext()
+***we have to export the context after creation
+
+
+provide the context   -GGP
+<propContext.provide  value={}>
+  <Child/>
+</propcontext.provide>
+
+
+
+consume the context  -Child
+import the context 
+
+import the useContext hook
+
+const var=useContext(propContext) 
+
+
+
