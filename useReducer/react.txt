@@ -1,0 +1,41 @@
+contextAPI 
+
+creation
+provider
+consumer 
+
+
+import Z
+A
+export const nameContext=createcontext 
+
+<nameContext.provider  value={prop}>
+
+</nameContext.provider>
+
+
+
+
+
+
+Z
+import nameContext
+import useContext
+
+const var=useContext(nameContext)
+
+
+
+
+useReducer 
+it is hook used to handle the state effectively
+
+reducer(state,action){
+    
+}
+
+
+
+
+
+const state,dispatch  = useReducer(reducer,{count:0})
