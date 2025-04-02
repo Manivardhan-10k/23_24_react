@@ -1,0 +1,12 @@
+lazy loading:
+
+
+fetch  --child 
+
+child-parent 
+
+
+
+State uplifting 
+it is reffered as sharing the single state(parent state) along with child components
+
