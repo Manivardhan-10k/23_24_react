@@ -1,0 +1,47 @@
+Redux:
+it is third party js library for global state management 
+#for handling complex states
+
+
+useState:
+state{
+
+}
+
+
+
+state uplifting:
+
+
+context:
+
+
+
+
+redux  react-redux
+
+
+
+Principle of Redux:
+
+1.  state is read-only 
+2.  it has a single source of truth
+3.  state can only be updated by pure functions
+
+
+
+Boilerplate code:
+1. action
+   actions are js functions that return a  object {type:incerement ,payload:}
+
+    
+2. reducer
+   it is a pure function that takes  two parameters initial state and action
+   
+
+
+
+3. store
+   it is the global state for the react app
+
+
